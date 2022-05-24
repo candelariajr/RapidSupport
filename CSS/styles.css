@@ -1,0 +1,45 @@
+#textContainer{
+    height: 594px;
+    background-color: #abb6c2;
+}
+
+.form-container{
+    border: 1px solid #DF691A;
+    padding: 20px;
+}
+
+#supportForm{
+    display: none;
+}
+
+input, textarea{
+    background-color: #c5c6c8;
+}
+
+#submitHelpForm{
+    height: 100px;
+    width: 240px;
+    font-size: 30px;
+}
+
+hr{
+    border-top: 1px solid #DF691A;
+    width: calc(100% + 40px);
+    margin-left: -20px;
+}
+
+#sendAnyway{
+    display:none;
+}
+
+.problem-label{
+    font-weight: bold;
+    color: #abb6c2;
+}
+
+.option-button{
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}

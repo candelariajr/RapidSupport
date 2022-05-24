@@ -1,0 +1,67 @@
+/*
+* VIEW CONTAINER
+* currentTime -> Derived Field
+*   action: (Self Invoked)
+* roomNumber -> Derived Field
+*
+* VIEW 1 (init)
+* 1 - currentAvailabilityState -> Derived Field\
+
+* 2 - CURRENT_TIME_SLOT_LABEL_TEXT -> Config Field
+
+* 3 - currentTimeSlot -> Derived Field
+
+* 4 - roomPrompt -> Derived Field
+
+* 5 - roomOpenState -> Derived Field
+
+* 6 - BOOK_NOW_LABEL or BOOK_FUTURE_LABEL -> Derived Choice between Config Fields
+*     Action: Move to VIEW 2
+
+
+*
+* VIEW 2 (booking)
+* instructionText -> Derived Field
+* dayPrevious
+*   Action: Move to Previous Day
+* dayLabel -> Derived Field
+* dayNext
+*   Action: Move to Next Day
+* slotsPrevious
+*   Action: Move to Previous Slots - Call RenderSlots
+* slots [
+*   slot:
+*       slotText -> Derived Field
+*       Action: Book This Slot
+*       Action: Update Instruction Text
+* ]
+* slotsNext
+*   Action: Move to Next Slots - Call RenderSlots
+* BOOK_LABEL
+*   Action: Move to VIEW 3
+* CANCEL_LABEL
+*   Action: Move to VIEW 1
+* View-Scoped-Event-Listener
+*   Action: Timeout: Move to VIEW 2
+*
+*  VIEW 3 (Swipe)
+*  SWIPE_CARD_INSTRUCTION -> Config Field
+*  SWIPE_CARD_INSTRUCTION_FILE -> Config Field
+*  INDICATION_ARROW_FILE -> Config Field
+*  View-Scoped-Event-Listener
+*    Action: Timeout: Move to VIEW 2
+*    Action: Card-Swipe:
+*       Return: Error: Modal Dialog
+*       Return: Success: Move to VIEW 4
+*
+*  VIEW 4 (Confirmation)
+*  BOOKING_SUCCESS_INDICATION_TEXT -> Config Field
+*       or BOOKING_FAILED_INDICATION_TEXT -> Derived Choice between Config Fields +
+*       bookingFailureReason -> Derived Text (This merits possible future exploration)
+*  bookingSlotText -> Derived Field
+*  FOLLOW_UP_INSTRUCTIONS_SUCCESS or FOLLOW_UP_INSTRUCTIONS_FAILURE -> Derived Choice between Config Fields
+*  OK_BUTTON_TEXT -> Config Field
+*    Action: Move to VIEW 1
+*  View-Scoped-Event-Listener
+*    Action: Timeout: Move to VIEW 1
+* */

@@ -1,0 +1,600 @@
+{
+  /*PARAMETERS DERIVED FROM INTERATION*/
+  "current_position" : 0,		//added by populateAll
+  "current_day_index" : 0,		//added by populateAll
+  "beginning_time_select" : false,
+  "beginning_time_iso" : "",
+  "end_time_iso" : "",
+  /*PARAMETERS DERIVED FROM INTERACTION*/
+  "available": false,
+  "params": {
+    "client_ip": "LOCALHOST"
+  },
+  "id": "36411",
+  "prompt": null,
+  "room_number": "155",
+  "days": [
+    {
+      "month": "04",
+      "day": "30",
+      "year": "2019",
+      "time-slots": [
+        {
+          "id": 0,
+          "status": "unavailable",
+          "from-iso": "2019-04-30T12:30-5:00",
+          "to-iso": "2019-04-30T13:00-5:00",
+          "from-display": "12:30 PM",
+          "to-display": "01:00 PM"
+        },
+        {
+          "id": 1,
+          "status": "unavailable",
+          "from-iso": "2019-04-30T13:00-5:00",
+          "to-iso": "2019-04-30T13:30-5:00",
+          "from-display": "01:00 PM",
+          "to-display": "01:30 PM"
+        },
+        {
+          "id": 2,
+          "status": "unavailable",
+          "from-iso": "2019-04-30T13:30-5:00",
+          "to-iso": "2019-04-30T14:00-5:00",
+          "from-display": "01:30 PM",
+          "to-display": "02:00 PM"
+        },
+        {
+          "id": 3,
+          "status": "unavailable",
+          "from-iso": "2019-04-30T14:00-5:00",
+          "to-iso": "2019-04-30T14:30-5:00",
+          "from-display": "02:00 PM",
+          "to-display": "02:30 PM"
+        },
+        {
+          "id": 4,
+          "status": "unavailable",
+          "from-iso": "2019-04-30T14:30-5:00",
+          "to-iso": "2019-04-30T15:00-5:00",
+          "from-display": "02:30 PM",
+          "to-display": "03:00 PM"
+        },
+        {
+          "id": 5,
+          "status": "unavailable",
+          "from-iso": "2019-04-30T15:00-5:00",
+          "to-iso": "2019-04-30T15:30-5:00",
+          "from-display": "03:00 PM",
+          "to-display": "03:30 PM"
+        },
+        {
+          "id": 6,
+          "status": "unavailable",
+          "from-iso": "2019-04-30T15:30-5:00",
+          "to-iso": "2019-04-30T16:00-5:00",
+          "from-display": "03:30 PM",
+          "to-display": "04:00 PM"
+        },
+        {
+          "id": 7,
+          "status": "unavailable",
+          "from-iso": "2019-04-30T16:00-5:00",
+          "to-iso": "2019-04-30T16:30-5:00",
+          "from-display": "04:00 PM",
+          "to-display": "04:30 PM"
+        },
+        {
+          "id": 8,
+          "status": "unavailable",
+          "from-iso": "2019-04-30T16:30-5:00",
+          "to-iso": "2019-04-30T17:00-5:00",
+          "from-display": "04:30 PM",
+          "to-display": "05:00 PM"
+        },
+        {
+          "id": 9,
+          "status": "unavailable",
+          "from-iso": "2019-04-30T17:00-5:00",
+          "to-iso": "2019-04-30T17:30-5:00",
+          "from-display": "05:00 PM",
+          "to-display": "05:30 PM"
+        },
+        {
+          "id": 10,
+          "status": "unavailable",
+          "from-iso": "2019-04-30T17:30-5:00",
+          "to-iso": "2019-04-30T18:00-5:00",
+          "from-display": "05:30 PM",
+          "to-display": "06:00 PM"
+        },
+        {
+          "id": 11,
+          "status": "unavailable",
+          "from-iso": "2019-04-30T18:00-5:00",
+          "to-iso": "2019-04-30T18:30-5:00",
+          "from-display": "06:00 PM",
+          "to-display": "06:30 PM"
+        },
+        {
+          "id": 12,
+          "status": "unavailable",
+          "from-iso": "2019-04-30T18:30-5:00",
+          "to-iso": "2019-04-30T19:00-5:00",
+          "from-display": "06:30 PM",
+          "to-display": "07:00 PM"
+        },
+        {
+          "id": 13,
+          "status": "unavailable",
+          "from-iso": "2019-04-30T19:00-5:00",
+          "to-iso": "2019-04-30T19:30-5:00",
+          "from-display": "07:00 PM",
+          "to-display": "07:30 PM"
+        },
+        {
+          "id": 14,
+          "status": "unavailable",
+          "from-iso": "2019-04-30T19:30-5:00",
+          "to-iso": "2019-04-30T20:00-5:00",
+          "from-display": "07:30 PM",
+          "to-display": "08:00 PM"
+        },
+        {
+          "id": 15,
+          "status": "unavailable",
+          "from-iso": "2019-04-30T20:00-5:00",
+          "to-iso": "2019-04-30T20:30-5:00",
+          "from-display": "08:00 PM",
+          "to-display": "08:30 PM"
+        },
+        {
+          "id": 16,
+          "status": "unavailable",
+          "from-iso": "2019-04-30T20:30-5:00",
+          "to-iso": "2019-04-30T21:00-5:00",
+          "from-display": "08:30 PM",
+          "to-display": "09:00 PM"
+        },
+        {
+          "id": 17,
+          "status": "unavailable",
+          "from-iso": "2019-04-30T21:00-5:00",
+          "to-iso": "2019-04-30T21:30-5:00",
+          "from-display": "09:00 PM",
+          "to-display": "09:30 PM"
+        },
+        {
+          "id": 18,
+          "status": "unavailable",
+          "from-iso": "2019-04-30T21:30-5:00",
+          "to-iso": "2019-04-30T22:00-5:00",
+          "from-display": "09:30 PM",
+          "to-display": "10:00 PM"
+        },
+        {
+          "id": 19,
+          "status": "unavailable",
+          "from-iso": "2019-04-30T22:00-5:00",
+          "to-iso": "2019-04-30T22:30-5:00",
+          "from-display": "10:00 PM",
+          "to-display": "10:30 PM"
+        },
+        {
+          "id": 20,
+          "status": "unavailable",
+          "from-iso": "2019-04-30T22:30-5:00",
+          "to-iso": "2019-04-30T23:00-5:00",
+          "from-display": "10:30 PM",
+          "to-display": "11:00 PM"
+        },
+        {
+          "id": 21,
+          "status": "unavailable",
+          "from-iso": "2019-04-30T23:00-5:00",
+          "to-iso": "2019-04-30T23:30-5:00",
+          "from-display": "11:00 PM",
+          "to-display": "11:30 PM"
+        },
+        {
+          "id": 22,
+          "status": "unavailable",
+          "from-iso": "2019-04-30T23:30-5:00",
+          "to-iso": "2019-05-01T00:00-5:00",
+          "from-display": "11:30 PM",
+          "to-display": "12:00 AM"
+        }
+      ]
+    },
+    {
+      "month": "05",
+      "day": "01",
+      "year": "2019",
+      "time-slots": [
+        {
+          "id": 23,
+          "status": "available",
+          "from-iso": "2019-05-01T00:00-5:00",
+          "to-iso": "2019-05-01T00:30-5:00",
+          "from-display": "12:00 AM",
+          "to-display": "12:30 AM"
+        },
+        {
+          "id": 24,
+          "status": "available",
+          "from-iso": "2019-05-01T00:30-5:00",
+          "to-iso": "2019-05-01T01:00-5:00",
+          "from-display": "12:30 AM",
+          "to-display": "01:00 AM"
+        },
+        {
+          "id": 25,
+          "status": "available",
+          "from-iso": "2019-05-01T01:00-5:00",
+          "to-iso": "2019-05-01T01:30-5:00",
+          "from-display": "01:00 AM",
+          "to-display": "01:30 AM"
+        },
+        {
+          "id": 26,
+          "status": "available",
+          "from-iso": "2019-05-01T01:30-5:00",
+          "to-iso": "2019-05-01T02:00-5:00",
+          "from-display": "01:30 AM",
+          "to-display": "02:00 AM"
+        },
+        {
+          "id": 27,
+          "status": "available",
+          "from-iso": "2019-05-01T02:00-5:00",
+          "to-iso": "2019-05-01T02:30-5:00",
+          "from-display": "02:00 AM",
+          "to-display": "02:30 AM"
+        },
+        {
+          "id": 28,
+          "status": "available",
+          "from-iso": "2019-05-01T02:30-5:00",
+          "to-iso": "2019-05-01T03:00-5:00",
+          "from-display": "02:30 AM",
+          "to-display": "03:00 AM"
+        },
+        {
+          "id": 29,
+          "status": "available",
+          "from-iso": "2019-05-01T03:00-5:00",
+          "to-iso": "2019-05-01T03:30-5:00",
+          "from-display": "03:00 AM",
+          "to-display": "03:30 AM"
+        },
+        {
+          "id": 30,
+          "status": "available",
+          "from-iso": "2019-05-01T03:30-5:00",
+          "to-iso": "2019-05-01T04:00-5:00",
+          "from-display": "03:30 AM",
+          "to-display": "04:00 AM"
+        },
+        {
+          "id": 31,
+          "status": "available",
+          "from-iso": "2019-05-01T04:00-5:00",
+          "to-iso": "2019-05-01T04:30-5:00",
+          "from-display": "04:00 AM",
+          "to-display": "04:30 AM"
+        },
+        {
+          "id": 32,
+          "status": "available",
+          "from-iso": "2019-05-01T04:30-5:00",
+          "to-iso": "2019-05-01T05:00-5:00",
+          "from-display": "04:30 AM",
+          "to-display": "05:00 AM"
+        },
+        {
+          "id": 33,
+          "status": "available",
+          "from-iso": "2019-05-01T05:00-5:00",
+          "to-iso": "2019-05-01T05:30-5:00",
+          "from-display": "05:00 AM",
+          "to-display": "05:30 AM"
+        },
+        {
+          "id": 34,
+          "status": "available",
+          "from-iso": "2019-05-01T05:30-5:00",
+          "to-iso": "2019-05-01T06:00-5:00",
+          "from-display": "05:30 AM",
+          "to-display": "06:00 AM"
+        },
+        {
+          "id": 35,
+          "status": "available",
+          "from-iso": "2019-05-01T06:00-5:00",
+          "to-iso": "2019-05-01T06:30-5:00",
+          "from-display": "06:00 AM",
+          "to-display": "06:30 AM"
+        },
+        {
+          "id": 36,
+          "status": "available",
+          "from-iso": "2019-05-01T06:30-5:00",
+          "to-iso": "2019-05-01T07:00-5:00",
+          "from-display": "06:30 AM",
+          "to-display": "07:00 AM"
+        },
+        {
+          "id": 37,
+          "status": "available",
+          "from-iso": "2019-05-01T07:00-5:00",
+          "to-iso": "2019-05-01T07:30-5:00",
+          "from-display": "07:00 AM",
+          "to-display": "07:30 AM"
+        },
+        {
+          "id": 38,
+          "status": "available",
+          "from-iso": "2019-05-01T07:30-5:00",
+          "to-iso": "2019-05-01T08:00-5:00",
+          "from-display": "07:30 AM",
+          "to-display": "08:00 AM"
+        },
+        {
+          "id": 39,
+          "status": "available",
+          "from-iso": "2019-05-01T08:00-5:00",
+          "to-iso": "2019-05-01T08:30-5:00",
+          "from-display": "08:00 AM",
+          "to-display": "08:30 AM"
+        },
+        {
+          "id": 40,
+          "status": "available",
+          "from-iso": "2019-05-01T08:30-5:00",
+          "to-iso": "2019-05-01T09:00-5:00",
+          "from-display": "08:30 AM",
+          "to-display": "09:00 AM"
+        },
+        {
+          "id": 41,
+          "status": "available",
+          "from-iso": "2019-05-01T09:00-5:00",
+          "to-iso": "2019-05-01T09:30-5:00",
+          "from-display": "09:00 AM",
+          "to-display": "09:30 AM"
+        },
+        {
+          "id": 42,
+          "status": "available",
+          "from-iso": "2019-05-01T09:30-5:00",
+          "to-iso": "2019-05-01T10:00-5:00",
+          "from-display": "09:30 AM",
+          "to-display": "10:00 AM"
+        },
+        {
+          "id": 43,
+          "status": "available",
+          "from-iso": "2019-05-01T10:00-5:00",
+          "to-iso": "2019-05-01T10:30-5:00",
+          "from-display": "10:00 AM",
+          "to-display": "10:30 AM"
+        },
+        {
+          "id": 44,
+          "status": "available",
+          "from-iso": "2019-05-01T10:30-5:00",
+          "to-iso": "2019-05-01T11:00-5:00",
+          "from-display": "10:30 AM",
+          "to-display": "11:00 AM"
+        },
+        {
+          "id": 45,
+          "status": "unavailable",
+          "from-iso": "2019-05-01T11:00-5:00",
+          "to-iso": "2019-05-01T11:30-5:00",
+          "from-display": "11:00 AM",
+          "to-display": "11:30 AM"
+        },
+        {
+          "id": 46,
+          "status": "unavailable",
+          "from-iso": "2019-05-01T11:30-5:00",
+          "to-iso": "2019-05-01T12:00-5:00",
+          "from-display": "11:30 AM",
+          "to-display": "12:00 PM"
+        },
+        {
+          "id": 47,
+          "status": "unavailable",
+          "from-iso": "2019-05-01T12:00-5:00",
+          "to-iso": "2019-05-01T12:30-5:00",
+          "from-display": "12:00 PM",
+          "to-display": "12:30 PM"
+        },
+        {
+          "id": 48,
+          "status": "unavailable",
+          "from-iso": "2019-05-01T12:30-5:00",
+          "to-iso": "2019-05-01T13:00-5:00",
+          "from-display": "12:30 PM",
+          "to-display": "01:00 PM"
+        },
+        {
+          "id": 49,
+          "status": "unavailable",
+          "from-iso": "2019-05-01T13:00-5:00",
+          "to-iso": "2019-05-01T13:30-5:00",
+          "from-display": "01:00 PM",
+          "to-display": "01:30 PM"
+        },
+        {
+          "id": 50,
+          "status": "unavailable",
+          "from-iso": "2019-05-01T13:30-5:00",
+          "to-iso": "2019-05-01T14:00-5:00",
+          "from-display": "01:30 PM",
+          "to-display": "02:00 PM"
+        },
+        {
+          "id": 51,
+          "status": "unavailable",
+          "from-iso": "2019-05-01T14:00-5:00",
+          "to-iso": "2019-05-01T14:30-5:00",
+          "from-display": "02:00 PM",
+          "to-display": "02:30 PM"
+        },
+        {
+          "id": 52,
+          "status": "unavailable",
+          "from-iso": "2019-05-01T14:30-5:00",
+          "to-iso": "2019-05-01T15:00-5:00",
+          "from-display": "02:30 PM",
+          "to-display": "03:00 PM"
+        },
+        {
+          "id": 53,
+          "status": "unavailable",
+          "from-iso": "2019-05-01T15:00-5:00",
+          "to-iso": "2019-05-01T15:30-5:00",
+          "from-display": "03:00 PM",
+          "to-display": "03:30 PM"
+        },
+        {
+          "id": 54,
+          "status": "unavailable",
+          "from-iso": "2019-05-01T15:30-5:00",
+          "to-iso": "2019-05-01T16:00-5:00",
+          "from-display": "03:30 PM",
+          "to-display": "04:00 PM"
+        },
+        {
+          "id": 55,
+          "status": "unavailable",
+          "from-iso": "2019-05-01T16:00-5:00",
+          "to-iso": "2019-05-01T16:30-5:00",
+          "from-display": "04:00 PM",
+          "to-display": "04:30 PM"
+        },
+        {
+          "id": 56,
+          "status": "unavailable",
+          "from-iso": "2019-05-01T16:30-5:00",
+          "to-iso": "2019-05-01T17:00-5:00",
+          "from-display": "04:30 PM",
+          "to-display": "05:00 PM"
+        },
+        {
+          "id": 57,
+          "status": "unavailable",
+          "from-iso": "2019-05-01T17:00-5:00",
+          "to-iso": "2019-05-01T17:30-5:00",
+          "from-display": "05:00 PM",
+          "to-display": "05:30 PM"
+        },
+        {
+          "id": 58,
+          "status": "unavailable",
+          "from-iso": "2019-05-01T17:30-5:00",
+          "to-iso": "2019-05-01T18:00-5:00",
+          "from-display": "05:30 PM",
+          "to-display": "06:00 PM"
+        },
+        {
+          "id": 59,
+          "status": "unavailable",
+          "from-iso": "2019-05-01T18:00-5:00",
+          "to-iso": "2019-05-01T18:30-5:00",
+          "from-display": "06:00 PM",
+          "to-display": "06:30 PM"
+        },
+        {
+          "id": 60,
+          "status": "unavailable",
+          "from-iso": "2019-05-01T18:30-5:00",
+          "to-iso": "2019-05-01T19:00-5:00",
+          "from-display": "06:30 PM",
+          "to-display": "07:00 PM"
+        },
+        {
+          "id": 61,
+          "status": "unavailable",
+          "from-iso": "2019-05-01T19:00-5:00",
+          "to-iso": "2019-05-01T19:30-5:00",
+          "from-display": "07:00 PM",
+          "to-display": "07:30 PM"
+        },
+        {
+          "id": 62,
+          "status": "unavailable",
+          "from-iso": "2019-05-01T19:30-5:00",
+          "to-iso": "2019-05-01T20:00-5:00",
+          "from-display": "07:30 PM",
+          "to-display": "08:00 PM"
+        },
+        {
+          "id": 63,
+          "status": "unavailable",
+          "from-iso": "2019-05-01T20:00-5:00",
+          "to-iso": "2019-05-01T20:30-5:00",
+          "from-display": "08:00 PM",
+          "to-display": "08:30 PM"
+        },
+        {
+          "id": 64,
+          "status": "unavailable",
+          "from-iso": "2019-05-01T20:30-5:00",
+          "to-iso": "2019-05-01T21:00-5:00",
+          "from-display": "08:30 PM",
+          "to-display": "09:00 PM"
+        },
+        {
+          "id": 65,
+          "status": "unavailable",
+          "from-iso": "2019-05-01T21:00-5:00",
+          "to-iso": "2019-05-01T21:30-5:00",
+          "from-display": "09:00 PM",
+          "to-display": "09:30 PM"
+        },
+        {
+          "id": 66,
+          "status": "unavailable",
+          "from-iso": "2019-05-01T21:30-5:00",
+          "to-iso": "2019-05-01T22:00-5:00",
+          "from-display": "09:30 PM",
+          "to-display": "10:00 PM"
+        },
+        {
+          "id": 67,
+          "status": "available",
+          "from-iso": "2019-05-01T22:00-5:00",
+          "to-iso": "2019-05-01T22:30-5:00",
+          "from-display": "10:00 PM",
+          "to-display": "10:30 PM"
+        },
+        {
+          "id": 68,
+          "status": "available",
+          "from-iso": "2019-05-01T22:30-5:00",
+          "to-iso": "2019-05-01T23:00-5:00",
+          "from-display": "10:30 PM",
+          "to-display": "11:00 PM"
+        },
+        {
+          "id": 69,
+          "status": "available",
+          "from-iso": "2019-05-01T23:00-5:00",
+          "to-iso": "2019-05-01T23:30-5:00",
+          "from-display": "11:00 PM",
+          "to-display": "11:30 PM"
+        },
+        {
+          "id": 70,
+          "status": "available",
+          "from-iso": "2019-05-01T23:30-5:00",
+          "to-iso": "2019-05-02T00:00-5:00",
+          "from-display": "11:30 PM",
+          "to-display": "12:00 AM"
+        }
+      ]
+    }
+  ]
+}
